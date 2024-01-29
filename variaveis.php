@@ -2,7 +2,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Curso PHP - Strings</title>
+    <title>Curso PHP - Variaveis</title>
 </head>
 
 <body>
@@ -19,6 +19,10 @@
 
         //boolean
         $fumante_sn = true; //(true = 1) ou false
+
+        //... lógica ...
+
+        $idade = 22;
 
    ?>
 
