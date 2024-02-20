@@ -9,7 +9,7 @@
 
    <?php 
 
-        /* //is_array
+         //is_array
 
         $array = array('not');
         $retorno = is_array($array);
@@ -19,9 +19,9 @@
         } else {
             echo 'Não, é um array';
         }
-        */
+        
 
-        /* //array_keys
+        //array_keys
 
         $array = [1=> 'a', 7 => 'b', 8 => 'c',];
 
@@ -34,9 +34,9 @@
         echo '<pre>';
             print_r($chaves_array);
         echo '</pre>';
-        */
+        
 
-       /* //sort() 
+        //sort() 
        
        $array = array('mouse', 'cabo hdmi', 'gabinete', 'fonte atx', 'notebook', 'teclado');
         
@@ -49,9 +49,9 @@
         echo '<pre>';
         print_r($array);
         echo '</pre>';
-        */
+        
 
-        /* //asort()
+         //asort()
 
         $array = array('mouse', 'cabo hdmi', 'gabinete', 'fonte atx', 'notebook', 'teclado');
         
@@ -64,9 +64,9 @@
         echo '<pre>';
         print_r($array);
         echo '</pre>';
-        */
+        
 
-       /* //count()
+        //count()
 
        $array = array('mouse', 'cabo hdmi', 'gabinete', 'fonte atx', 'notebook', 'teclado');
         
@@ -74,9 +74,9 @@
             print_r($array);
             echo count($array);
         echo '</pre>';
-        */
+        
 
-        /* //array_merge()
+         //array_merge()
 
         $array1 = ['osx', 'windows'];
         $array2 = array('linux');
@@ -87,9 +87,9 @@
         echo '<pre>';
             print_r($novo_array);
         echo '</pre>';
-        */
+        
 
-        /* //explode()
+         //explode()
 
         $string = '26/04/2018';
         $array_retorno = explode('/', $string);
@@ -99,7 +99,8 @@
             print_r($array_retorno);
             echo $array_retorno[2].'-'.$array_retorno[1].'-'.$array_retorno[0];
         echo '</pre>';
-        */
+        
+        //implode()
 
         $array = ['a', 'b','x','y'];
         $string_retorno = implode('-', $array);
